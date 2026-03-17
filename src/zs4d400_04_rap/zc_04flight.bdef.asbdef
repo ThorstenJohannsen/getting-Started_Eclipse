@@ -1,0 +1,20 @@
+projection implementation in class ZBP_C_04FLIGHT unique;
+strict ( 2 );
+extensible;
+use draft;
+use side effects;
+define behavior for ZC_04FLIGHT alias flight
+extensible
+use etag
+{
+//  use create; // Seite 373 Aufgabe 21 Nr. 1.
+  use update;
+//  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+}

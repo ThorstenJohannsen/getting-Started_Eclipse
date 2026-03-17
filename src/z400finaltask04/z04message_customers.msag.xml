@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z04MESSAGE_CUSTOMERS</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Messages für falsche Postleitzahlen</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z04MESSAGE_CUSTOMERS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Postcode number &amp;1 does not exist, please add postcode into table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z04MESSAGE_CUSTOMERS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Airline &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z04MESSAGE_CUSTOMERS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>departure or destination dos not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z04MESSAGE_CUSTOMERS</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Look at the negative price, it is minus!!!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z04MESSAGE_CUSTOMERS</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>&amp;1 Währung ist unbekannt und darf nicht gespeichert werden</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
